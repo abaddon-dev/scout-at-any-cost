@@ -19,6 +19,7 @@ public class CollisionHandler : MonoBehaviour
 
     void StartCrashSequence()
     { 
+        
         GetComponent<PlayerControls>().enabled = false;
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<BoxCollider>().enabled = false;

@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699700032039439959, guid: 7ea0027aa6205b044b76dc341d565c7f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 139
+      value: 172
       objectReference: {fileID: 0}
     - target: {fileID: 1699700032039439959, guid: 7ea0027aa6205b044b76dc341d565c7f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -55,9 +55,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Placeholer 2 Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 6037192957256526759, guid: 7ea0027aa6205b044b76dc341d565c7f, type: 3}
-      propertyPath: deathVFX
-      value: 
-      objectReference: {fileID: 8572626861837739073, guid: 5d06482e1e465314db152b471b342168, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ea0027aa6205b044b76dc341d565c7f, type: 3}
