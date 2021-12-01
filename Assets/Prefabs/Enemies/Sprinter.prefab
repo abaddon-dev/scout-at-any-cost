@@ -224,6 +224,7 @@ GameObject:
   - component: {fileID: 1058788264865311669}
   - component: {fileID: 2194836703220996192}
   - component: {fileID: 1511680500306516510}
+  - component: {fileID: 5444498528591509703}
   m_Layer: 0
   m_Name: Sprinter
   m_TagString: Untagged
@@ -309,7 +310,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 2498854703081836369, guid: 23df8613c8da4d749b834d3fd9f0e28e, type: 3}
   hitVFX: {fileID: 4824650140066918508, guid: 751594fffb87bc9448622875d266028e, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 50
   hitPoints: 2
 --- !u!65 &1511680500306516510
@@ -325,6 +325,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.29, y: -1.45, z: 10.850525}
   m_Center: {x: 0, y: -0.52, z: 0.0000011920929}
+--- !u!95 &5444498528591509703
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073767428087202253}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1073821377698487213
 GameObject:
   m_ObjectHideFlags: 0
