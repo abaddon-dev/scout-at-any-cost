@@ -204,10 +204,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7316166864178532988, guid: 514493f5dd2a0f84c88f30d67c81f17e, type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 400
-      objectReference: {fileID: 0}
     - target: {fileID: 7959915283400170521, guid: 514493f5dd2a0f84c88f30d67c81f17e, type: 3}
       propertyPath: m_Name
       value: Laser Right
@@ -341,10 +337,6 @@ PrefabInstance:
     - target: {fileID: 6394397950932239491, guid: 514493f5dd2a0f84c88f30d67c81f17e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7316166864178532988, guid: 514493f5dd2a0f84c88f30d67c81f17e, type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 7959915283400170521, guid: 514493f5dd2a0f84c88f30d67c81f17e, type: 3}
       propertyPath: m_Name
