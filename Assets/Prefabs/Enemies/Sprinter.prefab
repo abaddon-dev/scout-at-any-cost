@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7e6cbfa45d61342a4183c25cde1ed4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 2498854703081836369, guid: 23df8613c8da4d749b834d3fd9f0e28e, type: 3}
+  deathFX: {fileID: 2498854703081836369, guid: 23df8613c8da4d749b834d3fd9f0e28e, type: 3}
   hitVFX: {fileID: 4824650140066918508, guid: 751594fffb87bc9448622875d266028e, type: 3}
   scorePerHit: 50
   hitPoints: 2
@@ -323,7 +323,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.29, y: -1.45, z: 10.850525}
+  m_Size: {x: 11.29, y: -3.01, z: 10.850525}
   m_Center: {x: 0, y: -0.52, z: 0.0000011920929}
 --- !u!95 &5444498528591509703
 Animator:

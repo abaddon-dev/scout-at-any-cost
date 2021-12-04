@@ -78,7 +78,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3426571026637788564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -25}
+  m_LocalPosition: {x: 0, y: 0, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3426571026380798411}
@@ -142,6 +142,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3426571026380798411}
     m_Modifications:
+    - target: {fileID: 3594562754043969162, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 7922360654739856477, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -189,6 +193,18 @@ PrefabInstance:
     - target: {fileID: 7924104330349963005, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926015930224158199, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
+      propertyPath: xRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926015930224158199, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
+      propertyPath: yRange
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122395244522964777, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 350
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be591e1a74afcdc44aee5942cf0dfe94, type: 3}
